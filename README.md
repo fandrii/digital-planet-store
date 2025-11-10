@@ -1,46 +1,95 @@
-# Getting Started with Create React App
+# ⚡ Digital Planet — Modern Electronics Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive **e-commerce app** built with **React, TypeScript, Redux Toolkit, and Material UI**.  
+It allows users to browse products, add them to a cart, and simulate checkout with form validation.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛍️ Features
 
-### `npm start`
+- 🧭 **Product Listing** — displays a list of electronic items
+- 🛒 **Cart Management** — add, remove, and clear products in real time
+- 💳 **Checkout Page** — form validation with `react-hook-form` and `zod`
+- 💾 **Redux State Management** — central store for cart and products
+- ⚙️ **Scalable Architecture** — easily extendable to connect with a backend API
+- 🎨 **Material UI Design** — responsive and modern interface
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🧱 Tech Stack
 
-### `npm test`
+| Category             | Technology             |
+| -------------------- | ---------------------- |
+| **Frontend**         | React 18, TypeScript   |
+| **State Management** | Redux Toolkit          |
+| **Styling**          | Material UI (MUI)      |
+| **Form Validation**  | react-hook-form + zod  |
+| **Routing**          | React Router DOM       |
+| **Build Tool**       | Create React App (CRA) |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+digital-planet/
+│
+├── server               # backend folder (Node.js / Express)
+├── src/
+│   ├── components/      # Page components (Home, Cart, CartButton, etc.)
+│   ├── pages/           # Page components (Checkout)
+│   ├── store/           # Redux Toolkit slices
+│   ├── styles/          # MUI theme overrides
+│   ├── types/           # TypeScript types/interfaces
+│   ├── App.tsx          # Main app component
+│   └── index.tsx        # Entry point
+│
+├── package.json
+├── tsconfig.json
+└── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 How to Run the Project Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The project consists of **two parts**:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Frontend** (React)
+- **Backend** (Express)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You must run both servers.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+### 🖥️ 1. Run the Backend (Server)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Open a terminal and navigate to the backend folder:
+   ```bash
+   cd server
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Open a terminal and navigate to the backend folder:
+   ```bash
+   npm run server
+   ```
+   🟢 The backend will run on http://localhost:5000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🖥️ 2. Run the Frontend (React App)
+
+1. Open a new terminal and navigate to the frontend folder:
+   ```bash
+   cd digital-planet
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```

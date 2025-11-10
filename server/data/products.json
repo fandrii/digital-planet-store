@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Dell XPS 13",
+    "price": 1200,
+    "category": "Laptops",
+    "image": "/img/laptop.avif",
+    "description": "13-inch ultrabook with Intel i7",
+    "quantity": 0,
+    "totalPrice": 0
+  },
+  {
+    "id": 2,
+    "name": "iPhone 15 Pro",
+    "price": 1500,
+    "category": "Phones",
+    "image": "/img/iphone.png",
+    "description": "Latest Apple smartphone",
+    "quantity": 0,
+    "totalPrice": 0
+  },
+  {
+    "id": 3,
+    "name": "Sony headphones WH-1XM5",
+    "price": 400,
+    "category": "Audio",
+    "image": "/img/headphones.webp",
+    "description": "Noise-cancelling headphones",
+    "quantity": 0,
+    "totalPrice": 0
+  }
+]
