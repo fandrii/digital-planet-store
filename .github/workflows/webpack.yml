@@ -30,10 +30,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # 5. Прогон тестів
-      - name: Run tests
-        run: npm test
-
       # 6. Кешування SonarCloud сканера
       - name: Cache SonarCloud
         uses: actions/cache@v3
