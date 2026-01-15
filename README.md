@@ -2,7 +2,6 @@
 
 A modern, responsive **e-commerce app** built with **React, TypeScript, Redux Toolkit, and Material UI**.  
 It allows users to browse products, add them to a cart, and create checkout with form validation.
-The backend was built with Node.js and Express, connected to a SQL database via REST API.
 ---
 
 ## 🛍️ Features
