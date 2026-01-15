@@ -89,7 +89,7 @@ You must run both servers.
    ```
 3. Open a terminal and navigate to the backend folder:
    ```bash
-   npm run server
+   npm start
    ```
    🟢 The backend will run on http://localhost:5000
 
